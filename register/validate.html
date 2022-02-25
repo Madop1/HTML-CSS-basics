@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register validation</title>
+    <link rel="stylesheet" href="./valstyle.css">
+    <script src="./validate.js"></script>
+</head>
+<body>
+    
+
+
+<form  name="myform" onsubmit= "return validateForm()">
+    <header style="background:white">
+      <div>
+         <h1 style="text-align:center"> Register form</h1>
+    <div class="container">
+         
+      <label for ="name">Name</label>
+      <input type ="text" placeholder="Enter Name" name="name">
+      
+      <label for ="email">Email </label>
+      <input type="text" placeholder="example@gmail.com" name="email" >
+  
+       <label for ="pwd">Password </label>
+      <input type="password" placeholder="Enter Password" name="pwd1">
+  
+      <label for ="pwd">Re-enter Password </label>
+      <input type="password" placeholder="Re-enter Password" name="pwd2">
+      
+      <label>
+      <input type="checkbox" name="Remember">Remember me
+      </label>
+      
+      <input type="submit" value="register" style="color:red;width:60px">  
+  </form> 
+      </div>
+      </div>
+    </header>
+</body>
+</html>

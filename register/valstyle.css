@@ -1,0 +1,37 @@
+.container{
+    margin:auto;
+    padding:10px;
+    display:grid;
+    width:40%;
+    grid-gap:5px;
+    background:rgb(166, 243, 243);
+  }
+  .btn{
+    color:red;
+  }
+  
+  .btn:hover{
+  
+  cursor:pointer;
+  
+  }
+  .container1{
+      margin:auto;
+      padding:10px;
+      display:grid;
+      width:40%;
+      grid-gap:5px;
+      background:lavenderblush;
+    }
+    .btn1{
+      color:green;
+    }
+    
+    .btn1:hover{
+    
+    cursor:pointer;
+    
+    }
+  @media (max-width:500px){
+    .container{width:75%;}
+  }

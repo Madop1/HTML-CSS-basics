@@ -1,0 +1,20 @@
+.container{
+  margin: auto;
+    padding: 25px;
+    display: grid;
+    width: 30%;
+    gap: 9px;
+    background: rgb(166, 243, 243);
+}
+.btn{
+  color:red;
+}
+
+.btn:hover{
+
+cursor:pointer;
+
+}
+@media (max-width:720px){
+.container{width:50%}
+}
